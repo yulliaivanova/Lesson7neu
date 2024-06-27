@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background: antiquewhite;
+    min-height: 100vh;
+
+}
+/* header */
+.header{
+   padding: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+.header__nav-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 50px;
+    color: cadetblue;
+}
+/* header*/
+.hero__title{
+    font-size: 50px;
+    margin-left: 500px;
+    /*display: flex;*/
+    /*justify-items: center;*/
+}
+.hero__description__name{
+    color: darkblue;
+}
+.hero__foto{
+    float: left;
+    padding: 10px;
+}
+.hero__style{
+    color: red;
+}
+.hero__description{
+    font-size: 20px;
+
+}
